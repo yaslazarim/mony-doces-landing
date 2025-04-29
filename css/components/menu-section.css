@@ -1,0 +1,37 @@
+.menu-section{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary);
+}
+
+.section-title{
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary);
+    padding: 0.7rem;
+    font-family: var(--font);
+    color: var(--tertiary);
+    font-size: 1.3rem;
+}
+
+.category{
+    text-align: center;
+    font-family: var(--font);
+    color: var(--tertiary);
+    font-size: 1.2rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.products-img{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-img img{
+    border: solid var(--secondary) 0.4rem;
+    width: 16rem;
+    height: 16rem;
+}
