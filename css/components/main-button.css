@@ -1,0 +1,17 @@
+#main-button{
+  background-color: var(--tertiary);
+  border: none;
+  color: var(--secondary);
+  width: 7rem;
+  height: 3rem;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  font-weight: 600;
+  font-family: var(--font);
+}
+
+#main-button:hover{
+  transform: scale(1.05);
+}
