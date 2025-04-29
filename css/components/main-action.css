@@ -1,0 +1,15 @@
+.main-action{
+    display: inline-flex;
+    justify-content: space-around;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 3vh;
+    font-size: 18px;
+}
+
+.main-action:hover{
+    color: #fff;
+    font-weight: 600;
+    transform: scale(1.05);
+}
