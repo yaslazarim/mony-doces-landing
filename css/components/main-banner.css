@@ -10,8 +10,8 @@
     height: 38rem;
     width: 38rem;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .banner-img div {

@@ -2,16 +2,7 @@
     display: flex;
     flex-direction: column;
     background-color: var(--primary);
-}
-
-.section-title{
-    display: flex;
-    justify-content: center;
-    background-color: var(--secondary);
-    padding: 0.7rem;
-    font-family: var(--font);
-    color: var(--tertiary);
-    font-size: 1.3rem;
+    padding-bottom: 6rem;
 }
 
 .category{
@@ -26,8 +17,8 @@
 .products-img{
     display: flex;
     gap: 10rem;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .products-img img{
