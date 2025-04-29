@@ -7,16 +7,16 @@
 }
 
 .banner-img{
-    height: 600px;
-    width: 600px;
+    height: 38rem;
+    width: 38rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .banner-img div {
-    height: 600px;
-    width: 600px;
+    height: 38rem;
+    width: 38rem;
     background-image: url("../../img/Design\ sem\ nome.png");
     background-size: cover;
     background-repeat: no-repeat;

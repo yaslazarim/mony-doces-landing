@@ -1,0 +1,17 @@
+.banner-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.main-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+
+}
+
+.main-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+}
+
