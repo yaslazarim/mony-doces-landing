@@ -6,10 +6,9 @@
     font-family: 'Open Sans', sans-serif;
     margin-right: 3vh;
     font-size: 18px;
+    transition: 0.4s ease;
 }
 
 .main-action:hover{
-    color: #fff;
-    font-weight: 600;
-    transform: scale(1.05);
+    color: #f9e022;
 }
