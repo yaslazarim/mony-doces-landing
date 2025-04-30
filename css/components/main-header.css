@@ -5,3 +5,9 @@
     background-color: var(--tertiary);
     height: 10vh;
 }
+
+.main-header img{
+    width: 12rem;
+    height: 9rem;
+    padding: 0.2rem;
+}

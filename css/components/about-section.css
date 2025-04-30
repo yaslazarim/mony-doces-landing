@@ -30,7 +30,7 @@
     align-self: self-end;
 }
 
-.about-text{
+.about-text-container p{
     font-family: var(--font);
     font-size: 1.2rem;
 }

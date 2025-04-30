@@ -1,0 +1,25 @@
+#contact-button{
+    gap: 1rem;
+}
+
+#contact-button button{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--tertiary);
+  border: none;
+  color: var(--secondary);
+  width: 9rem;
+  height: 3rem;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  font-weight: 600;
+  font-family: var(--font);
+}
+
+.bi{
+  font-size: 1.5rem;
+}
