@@ -12,32 +12,37 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">  
 </head>
 <body>
-    <header class="main-header">
+    <header id="main-header">
 
         <img src="img/logo.png" alt="logo">
         
        <nav class="main-navigation">
-            <a href="" class="main-action">Ínicio</a>
-            <a href="" class="main-action">Cardápio</a>
-            <a href="" class="main-action">Sobre nós</a>
-            <a href="" class="main-action">Contato</a>
+            <a href="#main-header" class="main-action">Ínicio</a>
+            <a href="#menu-section" class="main-action">Cardápio</a>
+            <a href="#about-section" class="main-action">Sobre nós</a>
+            <a href="#contact-section" class="main-action">Contato</a>
        </nav>
     </header>
 
-    <section class="main-banner">
+    <section id="main-banner">
 
         <div class="banner-wrapper">
-            <h1 class="main-title">ADOCE SEU DIA!</h1>
-            <p class="main-text">  
+            <div class="banner-text-content">
+                <h1 class="main-title">ADOCE SEU DIA!</h1>
+                <p class="main-text">  
                 Encante-se com nossos doces gourmet <br>  
                 feitos com ingredientes selecionados e<br>
                 receitas exclusivas. Bolos, brownie e bolos<br> 
                 de pote que transformam qualquer <br> 
                 momento em uma ocasião especial. <br>  
                 Peça agora e experimente o sabor do carinho! 
-              </p>  
-                
-                <button id="main-button">PEÇA AGORA</button>
+              </p>
+            </div>
+            
+
+            <div id="main-button">
+                <button>PEÇA AGORA</button>
+            </div>
         </div>
 
         <div class="banner-img">
@@ -45,7 +50,7 @@
         </div>
     </section>
 
-    <section class="menu-section">
+    <section id="menu-section">
 
         <div class="section-title">
             <h1 >CARDÁPIO</h1>
@@ -96,7 +101,7 @@
         <div>
     </section>
 
-    <section class="about-section">
+    <section id="about-section">
 
         <div class="section-title">
             <h1 >SOBRE NÓS</h1>
@@ -130,7 +135,7 @@
         </div>
     </section>
 
-    <section class="contact-section">
+    <section id="contact-section">
 
         <div class="section-title">
             <h1 >CONTATO</h1>
@@ -160,6 +165,36 @@
         
 
     </section>
+
+    <footer class="page-footer">
+
+        <div class="address">
+            <h3>Endereço</h3>
+            <p> Rua 123, Número 456</p>
+            <p> Bairro Campeche</p>
+            <p> Florianópolis - SC, 12345-678, Brasil</p>
+        </div>
+        
+        <div class="footer-menu">
+            <h3>Menu</h3>
+
+            <div class="footer-action">
+                <a href="#main-header" >Ínicio</a>
+                <a href="#menu-section" >Cardápio</a>
+                <a href="#about-section" >Sobre nós</a>
+                <a href="#contact-section" >Contato</a>
+            </div>
+            
+        </div>
+        
+        <div class="footer-logo-and-credit">
+            <img src="img/logo.png" alt="logo">
+
+            <p>Por: Yasmim Lazarim</p>
+        </div>
+        
+        
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 
