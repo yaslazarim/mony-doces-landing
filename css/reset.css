@@ -9,17 +9,26 @@
 @import url("components/section-title.css");
 @import url("components/contact-section.css");
 @import url("components/contact-button.css");
+@import url("components/page-footer.css");
 
 
 * {  
     margin: 0;  
     padding: 0;  
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }  
-  
+
+html{
+  scroll-behavior: smooth;
+}
+
 html, body {  
     height: 100%;  
     font-family: sans-serif;  
+}
+
+a{
+  text-decoration: none;
 }
 
 :root{

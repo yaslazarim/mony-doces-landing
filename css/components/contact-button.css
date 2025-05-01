@@ -1,6 +1,8 @@
 #contact-button{
     gap: 1rem;
-}
+    display: flex;
+    flex-direction: column;
+  }
 
 #contact-button button{
   display: inline-flex;
@@ -20,6 +22,29 @@
   font-family: var(--font);
 }
 
-.bi{
+.contact-button button .bi{
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 678px) {
+  #contact-button button{
+    width: 8.5rem;
+    height: 2.5rem;
+  }
+
+  .contact-button button .bi{
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 610px){
+  #contact-button button{
+    width: 8.3rem;
+    height: 2.3rem;
+  }
+
+  .bi{
+    font-size: 1.1rem;
+  }
+}
+

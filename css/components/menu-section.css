@@ -1,4 +1,4 @@
-.menu-section{
+#menu-section{
     display: flex;
     flex-direction: column;
     background-color: var(--primary);
@@ -26,3 +26,44 @@
     width: 16rem;
     height: 16rem;
 }
+
+@media screen and (max-width: 1090px) {
+    .products-img{
+        gap: 5rem;
+    }
+  }
+
+@media screen and (max-width: 940px) {
+    .products-img{
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 796px) {
+.products-img img{
+    width: 12rem;
+    height: 12rem;
+}
+}
+
+
+
+@media screen and (max-width: 612px) {
+    .products-img img{
+        width: 9rem;
+        height: 9rem;
+    }
+
+    
+  }
+
+  @media screen and (max-width: 562px) {
+    .products-img {
+        flex-direction: column;
+    }
+    .products-img img{
+        width: 13rem;
+        height: 13rem;
+    }
+  }
+  

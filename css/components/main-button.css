@@ -1,4 +1,4 @@
-#main-button{
+#main-button button{
   background-color: var(--tertiary);
   border: none;
   color: var(--secondary);
@@ -12,6 +12,6 @@
   font-family: var(--font);
 }
 
-#main-button:hover{
+#main-button button:hover{
   transform: scale(1.05);
 }

@@ -2,7 +2,6 @@
     display: inline-flex;
     justify-content: space-around;
     color: var(--secondary);
-    text-decoration: none;
     font-family: var(--font);
     margin-right: 3vh;
     font-size: 18px;
