@@ -1,4 +1,4 @@
-#main-banner{
+#main-banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -6,7 +6,7 @@
     height: 62vh;
 }
 
-.banner-img{
+.banner-img {
     height: 38rem;
     width: 38rem;
     display: flex;
@@ -23,30 +23,46 @@
     background-position: center;
 }
 
-@media screen and (max-width: 887px) {
+
+@media screen and (max-width: 1006px) {
     .banner-img div {
         height: 30rem;
-        width: 30rem;
-    }
-  }
-
-  @media screen and (max-width: 690px) {
-    .banner-img div {
-        height: 18rem;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 884px) {
+    .banner-img div {
+        height: 16rem;
+        width: 16rem;
     }
 
     .banner-img{
-        width: 100%;
+        width: 32rem;
+        height: 27rem;
     }
 
     #main-banner {
-        flex-direction: column; 
+        flex-direction: column;
     }
-  }
+}
 
-  @media screen and (max-width:330px){
+@media screen and (max-width:330px) {
     .banner-img div {
         height: 16rem;
     }
-  }
+}
+
+@media screen and (max-width: 614px){
+    .banner-img div {
+        height: 14rem;
+        width: 14rem;
+
+    }
+}
+
+@media screen and (max-width:522px) {
+    .banner-img {
+        width: auto;
+    }
+}
