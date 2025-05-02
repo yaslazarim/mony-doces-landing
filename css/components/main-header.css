@@ -12,10 +12,14 @@
     padding: 0.2rem;
 }
 
+#main-header .bi-list{
+    display: none;
+}
+
 .main-navigation__hamburguer{
     display: none;
     position: absolute;
-    right: 0px;
+    right: -10000px;
     top: 0px;
     height: 100vh;
     width: 15rem;
@@ -53,6 +57,7 @@
         font-size: 1.6rem;
         padding-right: 1rem;
         cursor: pointer;
+        display: block;
     }
 
     #main-header img{
